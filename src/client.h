@@ -23,8 +23,8 @@
  *
  */
 
-#include <kodi/libXBMC_addon.h>
-#include <kodi/libXBMC_pvr.h>
+#include <mrmc/libXBMC_addon.h>
+#include <mrmc/libXBMC_pvr.h>
 #include <platform/util/StdString.h>
 
 extern bool m_bCreated;
