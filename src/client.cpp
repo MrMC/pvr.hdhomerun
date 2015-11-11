@@ -23,8 +23,8 @@
  */
 
 #include "client.h"
-#include <kodi/xbmc_pvr_dll.h>
-#include <kodi/libKODI_guilib.h>
+#include <mrmc/xbmc_pvr_dll.h>
+#include <mrmc/libKODI_guilib.h>
 #include <platform/util/util.h>
 #include <platform/threads/threads.h>
 #include "HDHomeRunTuners.h"
