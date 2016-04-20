@@ -1,0 +1,13 @@
+--- libhdhomerun/hdhomerun_os_posix.h	2016-04-20 07:46:46.200821439 -0400
++++ libhdhomerun_new/hdhomerun_os_posix.h	2016-04-20 07:50:37.044819677 -0400
+@@ -30,7 +30,9 @@
+ #include <sys/types.h>
+ #include <sys/socket.h>
+ #include <sys/time.h>
++#if !defined(__ANDROID__)
+ #include <sys/timeb.h>
++#endif
+ #include <sys/wait.h>
+ #include <netinet/in.h>
+ #include <arpa/inet.h>
+
